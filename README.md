@@ -1,19 +1,19 @@
 ## Front-end 
 
-* [ ] Create client folder 
+* [x] Create client folder 
 
-* [ ] Setup index.html 
+* [x] Setup index.html 
 
-* [ ] Bring in Skeleton CSS
+* [x] Bring in Skeleton CSS
     . http://getskeleton.com/
     . http://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
 
-* [ ] Create Header 
+* [x] Create Header 
 
-* [ ] Create form
-    [ ] Name
-    [ ] Content
-    [ ] u-full-width to both imputs
+* [x] Create form
+    [x] Name
+    [x] Content
+    [x] u-full-width to both imputs
 
 * [ ] Listen for form subit 
 
