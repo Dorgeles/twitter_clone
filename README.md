@@ -15,12 +15,52 @@
     [x] Content
     [x] u-full-width to both imputs
 
-* [ ] Listen for form subit 
+* [x] Listen for form subit 
 
-* [ ] Hide the form
+* [x] Hide the form
 
-* [ ] Show loading spinner
+* [x] Show loading spinner
 
-* [ ] get data from form and log it 
+* [x] get data from form and log it 
     get user input on the Client 
     hide/Show elements on client 
+
+## Back-end part
+
+* [x] Create a server folder 
+* [x] npm init -y
+* [x] npm install express morgan 
+* [x] npm i --save-dev nodemon
+* [x] Setup index.js 
+* [x] Add Get/route
+* [ ] App POST /twitter route 
+    * [ ] log out req.body
+
+
+## Front-end 
+
+* [x] fetch POST /twitter form data 
+* [x] See the CORS error and revel in this moment 
+
+## Back-end 
+
+* [x] npm install cors 
+* [x] make sure the server is receiving the data
+* [x] add JSON body parser middleware
+* [x] validate name and content 
+    * [x] Must be a string 
+    * [x] Cannot be null or Empty
+* [x] if not valid
+    * [x] Error code 422
+    * [x] invalid twitte, must respect the contraints 
+* [x] Setup the mongoDb connection 
+    * [x] npm install monk
+    * [x] connect to the DB 
+    * [x] Create documents collections (twitte)
+* [x] If valid 
+    * [x] Create a new object with
+    * [x] name, content, created date 
+    * [x] insert into the DB
+    * [x] Respond with create new object 
+* [x] store the data into the database 
+

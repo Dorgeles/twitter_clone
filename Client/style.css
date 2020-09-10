@@ -1,11 +1,7 @@
 .title{
     text-align: center;
 }
-.new-form{
+.new-form, .loading{
     width: 50%;
     margin: 0 auto;
 }
-.loading{
-    max-width: 20px;
-    max-height: 20px;
-}   
