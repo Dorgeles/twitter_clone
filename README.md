@@ -5,8 +5,10 @@
 * [x] Setup index.html 
 
 * [x] Bring in Skeleton CSS
-    . http://getskeleton.com/
-    . http://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
+
+    [.] http://getskeleton.com/
+    
+    [.] http://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
 
 * [x] Create Header 
 
@@ -33,8 +35,8 @@
 * [x] npm i --save-dev nodemon
 * [x] Setup index.js 
 * [x] Add Get/route
-* [ ] App POST /twitter route 
-    * [ ] log out req.body
+* [x] App POST /twitter route 
+    * [x] log out req.body
 
 
 ## Front-end 
@@ -64,3 +66,34 @@
     * [x] Respond with create new object 
 * [x] store the data into the database 
 
+## Front end
+
+* [x] Log out Twitte after POST request 
+* [x] Show form 
+* [x] Hide loading spinner 
+
+## Back end 
+
+* [x] Get /twittes
+    * [x] Respond with twittes from DB 
+* [x] Retrieve data from a database on the server
+
+## Front-end 
+
+* [x] Fetch GET /twitte
+    * [x] Iterate over array
+    * [x] Append each to page 
+    * [x] Reverse before appending 
+    * [x] show the form 
+    * [x] hide loading spinner
+* [x] fetch GET /twittes  after creating a new 
+* [x] retrieve data from a server on the client using fetch 
+* [x] hide/Show elements on client 
+* [x] Add elements to the page on client 
+* [x] Adding package for security purposes
+    * [x] bad-words
+    * [x] express-rate-limit 
+
+## Deployement 
+
+* [x] deploy the server with now 
